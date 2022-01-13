@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB5379F2790A169004B8B84 /* EdvoraTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5379E2790A169004B8B84 /* EdvoraTestApp.swift */; };
+		CEB537A12790A169004B8B84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB537A02790A169004B8B84 /* ContentView.swift */; };
+		CEB537A32790A16B004B8B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB537A22790A16B004B8B84 /* Assets.xcassets */; };
+		CEB537A62790A16B004B8B84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB537A52790A16B004B8B84 /* Preview Assets.xcassets */; };
+		CEC1FC472790BCF800B84893 /* LocalisedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FC302790BCF700B84893 /* LocalisedStrings.swift */; };
+		CEC1FC482790BCF800B84893 /* EdvoraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FC322790BCF700B84893 /* EdvoraTextField.swift */; };
+		CEC1FC492790BCF800B84893 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC1FC342790BCF700B84893 /* Colors.xcassets */; };
+		CEC1FC4B2790BCF800B84893 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC1FC362790BCF700B84893 /* Images.xcassets */; };
+		CEC1FC4D2790BCF800B84893 /* ValidationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FC3A2790BCF700B84893 /* ValidationProtocol.swift */; };
+		CEC1FC4E2790BCF800B84893 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FC3B2790BCF700B84893 /* Validations.swift */; };
+		CEC1FC4F2790BCF800B84893 /* EdvoraButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FC3D2790BCF700B84893 /* EdvoraButtonStyle.swift */; };
+		CEC1FC502790BCF800B84893 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FC3F2790BCF700B84893 /* LoginViewModel.swift */; };
+		CEC1FC512790BCF800B84893 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FC402790BCF700B84893 /* LoginView.swift */; };
+		CEC1FC522790BCF800B84893 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FC412790BCF700B84893 /* HomeView.swift */; };
+		CEC1FC532790BCF800B84893 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FC422790BCF700B84893 /* ForgotPasswordView.swift */; };
+		CEC1FC542790BCF800B84893 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FC432790BCF700B84893 /* SignupView.swift */; };
+		CEC1FC552790BCF800B84893 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FC452790BCF700B84893 /* String+Extension.swift */; };
+		CEC1FC562790BCF800B84893 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FC462790BCF700B84893 /* Color+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEB5379B2790A169004B8B84 /* EdvoraTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdvoraTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB5379E2790A169004B8B84 /* EdvoraTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdvoraTestApp.swift; sourceTree = "<group>"; };
+		CEB537A02790A169004B8B84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEB537A22790A16B004B8B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB537A52790A16B004B8B84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEB537A72790A16B004B8B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC1FC302790BCF700B84893 /* LocalisedStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalisedStrings.swift; sourceTree = "<group>"; };
+		CEC1FC322790BCF700B84893 /* EdvoraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdvoraTextField.swift; sourceTree = "<group>"; };
+		CEC1FC342790BCF700B84893 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		CEC1FC362790BCF700B84893 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEC1FC3A2790BCF700B84893 /* ValidationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationProtocol.swift; sourceTree = "<group>"; };
+		CEC1FC3B2790BCF700B84893 /* Validations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
+		CEC1FC3D2790BCF700B84893 /* EdvoraButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdvoraButtonStyle.swift; sourceTree = "<group>"; };
+		CEC1FC3F2790BCF700B84893 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		CEC1FC402790BCF700B84893 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CEC1FC412790BCF700B84893 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CEC1FC422790BCF700B84893 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		CEC1FC432790BCF700B84893 /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		CEC1FC452790BCF700B84893 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		CEC1FC462790BCF700B84893 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB537982790A169004B8B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB537922790A169004B8B84 = {
+			isa = PBXGroup;
+			children = (
+				CEB5379D2790A169004B8B84 /* EdvoraTest */,
+				CEB5379C2790A169004B8B84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB5379C2790A169004B8B84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB5379B2790A169004B8B84 /* EdvoraTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB5379D2790A169004B8B84 /* EdvoraTest */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1FC382790BCF700B84893 /* Classes */,
+				CEC1FC442790BCF700B84893 /* Extensions */,
+				CEC1FC302790BCF700B84893 /* LocalisedStrings.swift */,
+				CEC1FC332790BCF700B84893 /* Resources */,
+				CEC1FC312790BCF700B84893 /* Reusable Views */,
+				CEB5379E2790A169004B8B84 /* EdvoraTestApp.swift */,
+				CEB537A02790A169004B8B84 /* ContentView.swift */,
+				CEB537A22790A16B004B8B84 /* Assets.xcassets */,
+				CEB537A72790A16B004B8B84 /* Info.plist */,
+				CEB537A42790A16B004B8B84 /* Preview Content */,
+			);
+			path = EdvoraTest;
+			sourceTree = "<group>";
+		};
+		CEB537A42790A16B004B8B84 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEB537A52790A16B004B8B84 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEC1FC312790BCF700B84893 /* Reusable Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1FC322790BCF700B84893 /* EdvoraTextField.swift */,
+			);
+			path = "Reusable Views";
+			sourceTree = "<group>";
+		};
+		CEC1FC332790BCF700B84893 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1FC342790BCF700B84893 /* Colors.xcassets */,
+				CEC1FC362790BCF700B84893 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEC1FC382790BCF700B84893 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1FC392790BCF700B84893 /* User Input Validation */,
+				CEC1FC3C2790BCF700B84893 /* Styles */,
+				CEC1FC3E2790BCF700B84893 /* User Interface */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEC1FC392790BCF700B84893 /* User Input Validation */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1FC3A2790BCF700B84893 /* ValidationProtocol.swift */,
+				CEC1FC3B2790BCF700B84893 /* Validations.swift */,
+			);
+			path = "User Input Validation";
+			sourceTree = "<group>";
+		};
+		CEC1FC3C2790BCF700B84893 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1FC3D2790BCF700B84893 /* EdvoraButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		CEC1FC3E2790BCF700B84893 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1FC3F2790BCF700B84893 /* LoginViewModel.swift */,
+				CEC1FC402790BCF700B84893 /* LoginView.swift */,
+				CEC1FC412790BCF700B84893 /* HomeView.swift */,
+				CEC1FC422790BCF700B84893 /* ForgotPasswordView.swift */,
+				CEC1FC432790BCF700B84893 /* SignupView.swift */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		CEC1FC442790BCF700B84893 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1FC452790BCF700B84893 /* String+Extension.swift */,
+				CEC1FC462790BCF700B84893 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB5379A2790A169004B8B84 /* EdvoraTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB537AA2790A16B004B8B84 /* Build configuration list for PBXNativeTarget "EdvoraTest" */;
+			buildPhases = (
+				CEB537972790A169004B8B84 /* Sources */,
+				CEB537982790A169004B8B84 /* Frameworks */,
+				CEB537992790A169004B8B84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdvoraTest;
+			productName = EdvoraTest;
+			productReference = CEB5379B2790A169004B8B84 /* EdvoraTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB537932790A169004B8B84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CEB5379A2790A169004B8B84 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = CEB537962790A169004B8B84 /* Build configuration list for PBXProject "EdvoraTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB537922790A169004B8B84;
+			productRefGroup = CEB5379C2790A169004B8B84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB5379A2790A169004B8B84 /* EdvoraTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB537992790A169004B8B84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1FC492790BCF800B84893 /* Colors.xcassets in Resources */,
+				CEC1FC4B2790BCF800B84893 /* Images.xcassets in Resources */,
+				CEB537A62790A16B004B8B84 /* Preview Assets.xcassets in Resources */,
+				CEB537A32790A16B004B8B84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB537972790A169004B8B84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1FC4F2790BCF800B84893 /* EdvoraButtonStyle.swift in Sources */,
+				CEC1FC562790BCF800B84893 /* Color+Extension.swift in Sources */,
+				CEC1FC472790BCF800B84893 /* LocalisedStrings.swift in Sources */,
+				CEC1FC4D2790BCF800B84893 /* ValidationProtocol.swift in Sources */,
+				CEB537A12790A169004B8B84 /* ContentView.swift in Sources */,
+				CEC1FC522790BCF800B84893 /* HomeView.swift in Sources */,
+				CEC1FC482790BCF800B84893 /* EdvoraTextField.swift in Sources */,
+				CEB5379F2790A169004B8B84 /* EdvoraTestApp.swift in Sources */,
+				CEC1FC552790BCF800B84893 /* String+Extension.swift in Sources */,
+				CEC1FC4E2790BCF800B84893 /* Validations.swift in Sources */,
+				CEC1FC512790BCF800B84893 /* LoginView.swift in Sources */,
+				CEC1FC532790BCF800B84893 /* ForgotPasswordView.swift in Sources */,
+				CEC1FC542790BCF800B84893 /* SignupView.swift in Sources */,
+				CEC1FC502790BCF800B84893 /* LoginViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEB537A82790A16B004B8B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEB537A92790A16B004B8B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB537AB2790A16B004B8B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EdvoraTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 958YYA68XD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EdvoraTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tycho.EdvoraTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB537AC2790A16B004B8B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EdvoraTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 958YYA68XD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EdvoraTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tycho.EdvoraTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB537962790A169004B8B84 /* Build configuration list for PBXProject "EdvoraTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB537A82790A16B004B8B84 /* Debug */,
+				CEB537A92790A16B004B8B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB537AA2790A16B004B8B84 /* Build configuration list for PBXNativeTarget "EdvoraTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB537AB2790A16B004B8B84 /* Debug */,
+				CEB537AC2790A16B004B8B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB537932790A169004B8B84 /* Project object */;
+}
